@@ -1,0 +1,7 @@
+<phpunit bootstrap="./bootstrap.php" colors="false">
+  <testsuites>
+    <testsuite name="ImagineFocalResizer">
+      <directory>./Maagi/ImagineFocalResizer</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>

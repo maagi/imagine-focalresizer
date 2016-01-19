@@ -1,0 +1,5 @@
+bin
+vendor
+composer.lock
+*.sublime-*
+demo/dragonfly-resized.jpg
