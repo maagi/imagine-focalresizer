@@ -42,3 +42,11 @@ $resizer->resize(
 
 $image->save('dragonfly-resized.jpg');
 ```
+
+##How it works##
+
+The cropping strategy used here is very simple. It just compares the width and height ratios of the original and target sizes. The focal point will be on the center of the crop on the axis on which the ratio is greater while the other axis will remain uncropped. If a part of the crop area goes beyond the image's edges it will be moved accordingly.
+
+##Contribution##
+
+I know there are other cropping strategies and some fit certain scenarios better than the others. Please suggest other (better) ways to do this. The logic could then be extracted to several strategy classes and let the user decide which one to use.
