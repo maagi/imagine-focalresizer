@@ -1,5 +1,9 @@
 {
-    "name": "maagi/maagi-focalizer",
+    "name": "maagi/maagi-focalresizer",
+    "type": "library",
+    "description": "Focal point resizing for Imagine",
+    "license": "MIT",
+    "keywords": ["image","resizing","scaling"],
     "authors": [
         {
             "name": "Maagi Helsinki",
@@ -7,7 +11,7 @@
         }
     ],
     "require": {
-        "imagine/imagine": "~0.5.0"
+        "imagine/imagine": "~0.2"
     },
     "autoload": {
         "psr-0": {
