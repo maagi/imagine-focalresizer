@@ -8,7 +8,11 @@ The idea comes from Jono Menz's jQuery FocusPoint plugin. Its [documentation](ht
 
 ##Installation##
 
-Coming to packagist...
+Use [Composer](https://getcomposer.org/) to install.
+
+```bash
+$ composer require maagi/imagine-focalresizer
+```
 
 ##Usage##
 
