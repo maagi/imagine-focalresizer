@@ -31,7 +31,7 @@ class Resizer
             $cropY1 = 0;
             $cropY2 = $origHeight;
         } else {
-            list($cropY1, $cropY2) = $this->calculateCrop($origHeight, $height, $focal->getY(), $ratioWidth);
+            list($cropY1, $cropY2) = $this->calculateCrop($origHeight, $height, -$focal->getY(), $ratioWidth);
             $cropX1 = 0;
             $cropX2 = $origWidth;
         }
